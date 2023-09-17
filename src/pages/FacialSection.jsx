@@ -4,7 +4,13 @@ import { facial } from "../constant/ImageImport";
 
 const FacialSection = () => {
   return (
-    <div className="py-36 bg-bgWhite">
+    <div
+      className="py-36 bg-bgWhite"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10  ">
         <div className="pe-10 lg:ps-0  col-span-3 ">
           <img src={facial} alt="" />

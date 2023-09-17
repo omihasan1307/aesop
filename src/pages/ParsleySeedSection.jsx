@@ -4,7 +4,13 @@ import Button from "../shared/Button";
 
 const ParsleySeedSection = () => {
   return (
-    <div className="py-36 bg-bgWhite">
+    <div
+      className="py-36 bg-bgWhite"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-10  ">
         <div className="col-span-2 px-5 lg:ps-20 ">
           <h1 className="pb-5 font-semibold">Parsley Seed Skin Care</h1>
